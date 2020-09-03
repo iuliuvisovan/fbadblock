@@ -4,13 +4,13 @@ chrome.tabs.onUpdated.addListener(
       chrome.tabs.executeScript({
         code: `document.addEventListener('scroll', () => {
                   var theAds = [...document.querySelectorAll('.qzhwtbm6.knvmm38d .oi732d6d span[id*=jsc]')].filter(x => { 
-                    const cleanWord = x.innerText.replace(/\n/g, '').replace(/\·/g, '').trim();
+                    const cleanWord = x.innerText.replace(/\\n/g, '').replace(/\\·/g, '').trim();
             
                     if(cleanWord.split(' ').length > 1) {
                         return false;
                     }
             
-                    return !(/[0-9]|\s/.test(cleanWord));
+                    return !(/[0-9]|\\s/.test(cleanWord));
                 })
             
                 theAds.forEach(x => {
