@@ -1,8 +1,8 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "AdBlock for Facebook",
-  "description": "Removes all the ads/sponsored posts that you find in your Facebook news feed.",
-  "version": "2.0.1",
+  "name": "Facebook \"Sponsored\" Ads Blocker",
+  "description": "Removes all the \"sponsored\" ads/posts that you might find in your Facebook news feed.",
+  "version": "2.1.1",
   "background": {
     "scripts": ["main.js"],
     "persistent": false
