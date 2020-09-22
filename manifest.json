@@ -2,7 +2,7 @@
   "update_url": "https://clients2.google.com/service/update2/crx",
   "name": "Facebook \"Sponsored\" Ads Blocker",
   "description": "Removes all the \"sponsored\" ads/posts that you might find in your Facebook news feed.",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "background": {
     "scripts": ["main.js"],
     "persistent": false
